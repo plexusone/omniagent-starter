@@ -42,8 +42,8 @@
 package starter
 
 import (
-	"github.com/plexusone/omnirole-facilitator"
-	"github.com/plexusone/omniskill-github"
+	facilitator "github.com/plexusone/omnirole-facilitator"
+	github "github.com/plexusone/omniskill-github"
 	skills "github.com/plexusone/omniskill-pack"
 	"github.com/plexusone/omniskill/pack"
 	"github.com/plexusone/omniskill/role"
