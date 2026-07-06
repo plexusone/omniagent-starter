@@ -1,0 +1,44 @@
+{
+  "irVersion": "1.0",
+  "project": "omniagent-starter",
+  "repository": "https://github.com/plexusone/omniagent-starter",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["grokify", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-07-05",
+      "highlights": [
+        { "description": "Batteries-included starter template for building AI agents with OmniAgent" },
+        { "description": "Pre-configured with 18 markdown skills, GitHub API skill, web search, and Meeting Facilitator role" }
+      ],
+      "added": [
+        { "description": "Starter bundle with skills and roles for quick agent setup", "commit": "3f42906" },
+        { "description": "Runnable agent in `cmd/agent/main.go` demonstrating skills, roles, and session storage", "commit": "9d57798" },
+        { "description": "Integration with `omniskill-pack` providing 18 markdown skills (git, docker, tmux, weather, etc.)", "commit": "3f42906" },
+        { "description": "GitHub SDK skill via `omni-github` for issues, PRs, and code search", "commit": "3f42906" },
+        { "description": "Web search skill via `omniserp` for Google/news search", "commit": "9d57798" },
+        { "description": "Meeting Facilitator role via `omnirole-facilitator` with action tracking", "commit": "3f42906" },
+        { "description": "SQLite session storage for persistent conversations", "commit": "9d57798" },
+        { "description": "Environment variable configuration for LLM providers, channels, and skills", "commit": "9d57798" }
+      ],
+      "changed": [
+        { "description": "Migrate from `omniskill-github` to `omni-github/omniskill/github`", "commit": "40ab5f5" }
+      ],
+      "documentation": [
+        { "description": "README with quick start guide and usage examples", "commit": "31e1efd" },
+        { "description": "README expanded with runnable starter template documentation", "commit": "56535c1" },
+        { "description": "Narrative context for OmniAgent, Skills, and Roles ecosystem", "commit": "c1a7d57" },
+        { "description": "Architecture diagram showing component relationships", "commit": "eada390" }
+      ],
+      "infrastructure": [
+        { "description": "GitHub Actions shared workflows for CI/CD", "commit": "a5112ba" },
+        { "description": "Add `omniagent.db` to `.gitignore` for runtime SQLite storage", "commit": "3670a84" }
+      ],
+      "tests": [
+        { "description": "Unit tests for starter bundle", "commit": "63420fb" }
+      ]
+    }
+  ]
+}
