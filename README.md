@@ -20,102 +20,141 @@
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
  [license-url]: https://github.com/plexusone/omniagent-starter/blob/main/LICENSE
 
-Batteries-included bundle for OmniAgent with commonly used skills and roles.
-
-## What's Included
-
-| Package | Description |
-|---------|-------------|
-| [omniskill-pack](https://github.com/plexusone/omniskill-pack) | 18 markdown skills (GitHub CLI, weather, tmux, etc.) |
-| [omniskill-github](https://github.com/plexusone/omniskill-github) | GitHub SDK skill for issues, PRs, code search |
-| [omnirole-facilitator](https://github.com/plexusone/omnirole-facilitator) | Meeting facilitation role with workflows |
-
-## Installation
-
-```bash
-go get github.com/plexusone/omniagent-starter
-```
+Batteries-included starter template for [OmniAgent](https://github.com/plexusone/omniagent). Run a fully-configured AI agent in minutes.
 
 ## Quick Start
 
+```bash
+# Clone the repo
+git clone https://github.com/plexusone/omniagent-starter.git
+cd omniagent-starter
+
+# Set your API key
+export OPENAI_API_KEY="sk-..."     # Or ANTHROPIC_API_KEY
+
+# Enable WhatsApp
+export WHATSAPP_ENABLED=true
+
+# Run the agent
+go run ./cmd/agent gateway run
+```
+
+A QR code will appear - scan it with WhatsApp to connect.
+
+## What's Included
+
+| Component | Description |
+|-----------|-------------|
+| **Runnable Agent** | `cmd/agent/main.go` - ready to run with standard omniagent CLI |
+| **18 Markdown Skills** | Git, Docker, tmux, weather, and more via [omniskill-pack](https://github.com/plexusone/omniskill-pack) |
+| **GitHub Skill** | Issues, PRs, code search via [omniskill-github](https://github.com/plexusone/omniskill-github) |
+| **Web Search** | Google/news search via [omniserp](https://github.com/plexusone/omniserp) |
+| **Facilitator Role** | Meeting notes and action tracking via [omnirole-facilitator](https://github.com/plexusone/omnirole-facilitator) |
+| **Session Storage** | Persistent conversations with SQLite |
+
+## Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `OPENAI_API_KEY` | OpenAI API key |
+| `ANTHROPIC_API_KEY` | Anthropic API key (alternative) |
+| `WHATSAPP_ENABLED` | Set to `true` to enable WhatsApp |
+| `GITHUB_TOKEN` | GitHub token for GitHub skill (optional) |
+| `SERPER_API_KEY` | Serper API key for web search (optional) |
+| `STORAGE_PATH` | SQLite path (default: `omniagent.db`) |
+| `ENABLE_FACILITATOR_ROLE` | Set to `true` to use Meeting Facilitator role |
+
+## Available Commands
+
+After the agent starts, use standard omniagent commands:
+
+```bash
+# Gateway
+go run ./cmd/agent gateway run      # Start with all channels
+
+# Skills
+go run ./cmd/agent skills list      # List bundled skills
+go run ./cmd/agent skills check     # Check skill requirements
+
+# Channels
+go run ./cmd/agent channels status  # Show channel status
+
+# Help
+go run ./cmd/agent --help           # See all commands
+```
+
+## Customization
+
+### Add Your Own Skills
+
+Edit `cmd/agent/main.go` to add compiled skills:
+
+```go
+// Import your skill
+import myskill "github.com/yourorg/myskill"
+
+// Register it
+mySkill := myskill.New(myskill.Config{...})
+commands.RegisterAgentOption(agent.WithCompiledSkill(mySkill))
+```
+
+### Enable the Facilitator Role
+
+```bash
+export ENABLE_FACILITATOR_ROLE=true
+go run ./cmd/agent gateway run
+```
+
+The agent will use the Meeting PM persona with workflows for meeting facilitation.
+
+## Programmatic Usage
+
+You can also import the starter bundle into your own agent:
+
 ```go
 import (
-    "os"
-
     "github.com/plexusone/omniagent/agent"
     starter "github.com/plexusone/omniagent-starter"
 )
 
-func main() {
-    // Create bundle with configuration
-    bundle := starter.Default(starter.Config{
-        GitHubToken: os.Getenv("GITHUB_TOKEN"),
-    })
+bundle := starter.Default(starter.Config{
+    GitHubToken: os.Getenv("GITHUB_TOKEN"),
+})
 
-    // Use with omniagent
-    agent, _ := agent.New(config,
-        agent.WithSkillPack(bundle.SkillPack()),
-        agent.WithSkills(bundle.Skills()...),
-        agent.WithRole(bundle.FacilitatorRole()),
-    )
-}
-```
-
-## Selective Usage
-
-Import only what you need:
-
-```go
-bundle := starter.Default(starter.Config{})
-
-// Just the skill pack (18 markdown skills)
-agent.WithSkillPack(bundle.SkillPack())
-
-// Just the GitHub skill
-agent.WithSkills(bundle.GitHubSkill())
-
-// Just the facilitator role
-agent.WithRole(bundle.FacilitatorRole())
-```
-
-## Configuration
-
-```go
-starter.Config{
-    // GitHub skill configuration
-    GitHubToken:        "ghp_...",           // Required for GitHub skill
-    GitHubBaseURL:      "https://...",       // For GitHub Enterprise
-    GitHubDefaultOwner: "myorg",             // Default repo owner
-    GitHubDefaultRepo:  "myrepo",            // Default repo name
-
-    // Facilitator role configuration
-    FacilitatorConfluenceSpace: "TEAM",      // Confluence space for notes
-    FacilitatorAhaProduct:      "PROD-1",    // Aha product ID
-    FacilitatorTranscription:   true,        // Enable transcription
-    FacilitatorActionTracking:  true,        // Track action items
-}
+agent, _ := agent.New(config,
+    agent.WithSkillPack(bundle.SkillPack().FS()),
+    agent.WithCompiledSkill(bundle.GitHubSkill()),
+    agent.WithRole(bundle.FacilitatorRole()),
+)
 ```
 
 ## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  Your Agent (custom configuration)                          │
+│  cmd/agent/main.go (runnable starter)                       │
 ├─────────────────────────────────────────────────────────────┤
-│  omniagent-starter (this package)                           │
+│  starter.go (bundle)                                        │
 │  ├── omniskill-pack         (18 markdown skills)            │
 │  ├── omniskill-github       (GitHub SDK skill)              │
 │  └── omnirole-facilitator   (meeting facilitation)          │
 ├─────────────────────────────────────────────────────────────┤
 │  omniagent (core framework)                                 │
-├─────────────────────────────────────────────────────────────┤
-│  omniskill (interfaces & types)                             │
+│  ├── Agent runtime with tool execution                      │
+│  ├── WebSocket gateway                                      │
+│  ├── Channel support (WhatsApp, Telegram, Discord, etc.)    │
+│  └── Voice support (STT/TTS, realtime)                      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ## Requirements
 
 - Go 1.26 or later
+
+## Related
+
+- [omniagent](https://github.com/plexusone/omniagent) - Core agent framework
+- [grokify-omniagent](https://github.com/grokify/grokify-omniagent) - Example agent with investment skills
 
 ## License
 
