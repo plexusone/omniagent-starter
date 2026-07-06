@@ -536,6 +536,8 @@ github.com/plexusone/omni-bitwarden v0.1.0 h1:psdoipqXcJEipiUyCDsikPajl7N41oGFTU
 github.com/plexusone/omni-bitwarden v0.1.0/go.mod h1:duTYEBBbU80tbX0vSMY3sDhlinRfS197xn9nQlgt9SA=
 github.com/plexusone/omni-deepgram v0.7.0 h1:5CAdKlT5nBMVCSYt259B24sR2zcsM2Q8qtUWJ4mVZUc=
 github.com/plexusone/omni-deepgram v0.7.0/go.mod h1:T/1ADMGTnA+Fert63+KgE3wxaQvoUOyqz1TeVqgYqbQ=
+github.com/plexusone/omni-github v0.4.0 h1:m8EN/mRGQ71ESfG5EvUKVgJ3WkSbOmMUcvQ+16JHipI=
+github.com/plexusone/omni-github v0.4.0/go.mod h1:vahh2A/exxGFGxc+UB7N2gxPDfwExTjiD5MzSx82uxc=
 github.com/plexusone/omni-google v0.7.0 h1:RIYB80bHdW5z26+ncvNzHzhVADT4UyPKqeCYa7pAiJk=
 github.com/plexusone/omni-google v0.7.0/go.mod h1:gsA32NcWqjQ4caUI71+TjkXwo1HZPkGti3T0g40ILk0=
 github.com/plexusone/omni-onepassword v0.4.0 h1:KKo3iod6BDITDUG/OTou30erE8nHpGccnHk78E8KLR0=
@@ -548,6 +550,8 @@ github.com/plexusone/omni-telnyx v0.4.0 h1:Qa/8GB0MAk7ryA742Rb+fgsbc/SsG/GZs6Arg
 github.com/plexusone/omni-telnyx v0.4.0/go.mod h1:DvXKIErUst6r0CYmHQKMh+si8YKdlh0n7x1467x3dLo=
 github.com/plexusone/omni-twilio v0.9.0 h1:Bumm1HVnN7EYpPgRTKz9h16SUjAZam59XIHD+yayTs8=
 github.com/plexusone/omni-twilio v0.9.0/go.mod h1:CI1n6fwjgaBl3i1Dcx4x9lTgIxdEBVwwb18kC4weo3k=
+github.com/plexusone/omniagent v0.13.0 h1:m/d44g4gwarIkP3Ng94lfe0qkzegwcs1vpy1rKnRfj4=
+github.com/plexusone/omniagent v0.13.0/go.mod h1:OK0aN5MgMbqhpjEANYJLK5vU4M10/YNztTi+A8hXVLA=
 github.com/plexusone/omnichat v0.8.0 h1:PZofl+lWVMtOUurzULxwcHrl6fjvEMwvsvd5a+tCQMM=
 github.com/plexusone/omnichat v0.8.0/go.mod h1:bHZN8Yqbb7wTbnHNe/0zVmvlxLEw1tGUsjlbRWzAHyo=
 github.com/plexusone/omniimage v0.1.0 h1:d0+GBVbE6EtuL/uhIVsPe49hAH8tkmL1vHNYt+KIGv8=
@@ -562,10 +566,14 @@ github.com/plexusone/omnimemory v0.1.0 h1:Wv9i66aaVaKOXTUGmdcU++mLf1j98wKLpZcGrg
 github.com/plexusone/omnimemory v0.1.0/go.mod h1:rKP37hULOs5WYe8V3MmLURYd5nJoZLkUEd8I0vExvdI=
 github.com/plexusone/omniobserve v0.11.0 h1:oFApQ2ULGVtmuhAiN0bsPpineL2G+Ncgg2FcoArMIgg=
 github.com/plexusone/omniobserve v0.11.0/go.mod h1:9vfc+8CWwQbNZLurWAdUthzT9en0kfQRxdeV/QRVa9w=
+github.com/plexusone/omnirole-facilitator v0.1.0 h1:tW30JvdGtTTX/W44F3zyaNGPuKnAsCClnKZuJ28TkRg=
+github.com/plexusone/omnirole-facilitator v0.1.0/go.mod h1:FRj1s2J4mBcb4qoNJCZx7Bbln0icpojwtyAbwDNc8Q0=
 github.com/plexusone/omniserp v0.9.0 h1:5E29+gnclbuDA3Oj16Gnh4lRCTkmlcupdpfFUOF2W6s=
 github.com/plexusone/omniserp v0.9.0/go.mod h1:xQ6ULoxBIEzbpjNCMuIoSyVVWNJoW1dyS016dx2jFjA=
 github.com/plexusone/omniskill v0.10.0 h1:Nd/zfAGPNmnmRGyBhmMgXFS7lYcWbPtrT0k5cP8eOvY=
 github.com/plexusone/omniskill v0.10.0/go.mod h1:L0MW5av6S0EkgGByFMwDmTJBy/7h8ourBmQ5xxM2vQI=
+github.com/plexusone/omniskill-pack v0.2.0 h1:ZzczPmYYj5DtD8C8OmI/0qrxFBSVHi9kt1+9+GPC6Tg=
+github.com/plexusone/omniskill-pack v0.2.0/go.mod h1:GoOr0wUitxUjgDrjPoxJ7J2d6RD+vEGv1rEK2P0m1cU=
 github.com/plexusone/omnistorage-core v0.5.0 h1:gORFoef2hysWTbn2/ndWoAQFsL0PRG6pSxNvTdAnPMI=
 github.com/plexusone/omnistorage-core v0.5.0/go.mod h1:YIUrTHj75Z8lSSRE/4ZaLF+DZvLQJGC2OU0ctjPfg8Y=
 github.com/plexusone/omnitoken v0.1.0 h1:jBNIlUwRhI/2lzgGMWwCAi0cyRE5PsohHdXSE9ApUak=

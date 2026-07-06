@@ -70,7 +70,7 @@ This starter includes both:
 | Skill | Type | What it does |
 |-------|------|--------------|
 | 18 skills from [omniskill-pack](https://github.com/plexusone/omniskill-pack) | Markdown | Git, Docker, tmux, weather, Homebrew, and more |
-| [omniskill-github](https://github.com/plexusone/omniskill-github) | Compiled | Search issues, PRs, and code via GitHub API |
+| [omni-github](https://github.com/plexusone/omni-github) | Compiled | Search issues, PRs, and code via GitHub API |
 | [omniserp](https://github.com/plexusone/omniserp) | Compiled | Web and news search via Serper/SerpAPI |
 
 ### Roles
@@ -243,7 +243,7 @@ func main() {
 ├─────────────────────────────────────────────────────────────┤
 │  starter.go (bundle)                                        │
 │  ├── omniskill-pack         (18 markdown skills)            │
-│  ├── omniskill-github       (GitHub API skill)              │
+│  ├── omni-github            (GitHub API skill)              │
 │  ├── omniserp               (web search skill)              │
 │  └── omnirole-facilitator   (meeting facilitator role)      │
 ├─────────────────────────────────────────────────────────────┤

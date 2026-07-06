@@ -3,12 +3,12 @@ module github.com/plexusone/omniagent-starter
 go 1.26.4
 
 require (
+	github.com/plexusone/omni-github v0.4.0
 	github.com/plexusone/omniagent v0.13.0
 	github.com/plexusone/omnirole-facilitator v0.1.0
 	github.com/plexusone/omniserp v0.9.0
 	github.com/plexusone/omniskill v0.10.0
-	github.com/plexusone/omniskill-github v0.1.0
-	github.com/plexusone/omniskill-pack v0.1.0
+	github.com/plexusone/omniskill-pack v0.2.0
 	github.com/plexusone/omnistorage-core v0.5.0
 )
 
@@ -192,11 +192,3 @@ require (
 
 // Force log15/v3 to version compatible with ngrok v1.13.0 (has ext.RandId)
 replace github.com/inconshreveable/log15/v3 => github.com/inconshreveable/log15/v3 v3.0.0-testing.5
-
-// Local development - remove before tagging
-replace (
-	github.com/plexusone/omniagent => ../omniagent
-	github.com/plexusone/omnirole-facilitator => ../omnirole-facilitator
-	github.com/plexusone/omniskill-github => ../omniskill-github
-	github.com/plexusone/omniskill-pack => ../omniskill-pack
-)

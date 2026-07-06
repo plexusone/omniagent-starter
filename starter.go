@@ -6,7 +6,7 @@
 //
 // This package bundles commonly used skills and roles for quick agent setup:
 //   - omniskill-pack: 18 markdown skills (GitHub CLI, weather, tmux, etc.)
-//   - omniskill-github: GitHub SDK skill for issues, PRs, and code search
+//   - omni-github: GitHub SDK skill for issues, PRs, and code search
 //   - omnirole-facilitator: Meeting facilitation role with workflows
 //
 // # Quick Start
@@ -42,8 +42,8 @@
 package starter
 
 import (
+	github "github.com/plexusone/omni-github/omniskill/github"
 	facilitator "github.com/plexusone/omnirole-facilitator"
-	github "github.com/plexusone/omniskill-github"
 	skills "github.com/plexusone/omniskill-pack"
 	"github.com/plexusone/omniskill/pack"
 	"github.com/plexusone/omniskill/role"
