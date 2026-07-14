@@ -516,8 +516,8 @@ github.com/pb33f/ordered-map/v2 v2.3.1 h1:5319HDO0aw4DA4gzi+zv4FXU9UlSs3xGZ40wcP
 github.com/pb33f/ordered-map/v2 v2.3.1/go.mod h1:qxFQgd0PkVUtOMCkTapqotNgzRhMPL7VvaHKbd1HnmQ=
 github.com/pelletier/go-toml v1.9.5/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCkoOuaOx1Y+c=
 github.com/pelletier/go-toml/v2 v2.0.5/go.mod h1:OMHamSCAODeSsVrwwvcJOaoN0LIUIaFVNZzmWyNfXas=
-github.com/petermattis/goid v0.0.0-20260701081913-4f67fd55d3b4 h1:YCvN6o1QTbVkeHMlTjnzfP02SvsmOZLlJdFzw/f9BTk=
-github.com/petermattis/goid v0.0.0-20260701081913-4f67fd55d3b4/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
+github.com/petermattis/goid v0.0.0-20260713073324-57ed88f34a0a h1:5jTDzlD0mLRUv0pFizfzkyawSZj/anfU3rzgEKumB9Y=
+github.com/petermattis/goid v0.0.0-20260713073324-57ed88f34a0a/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
@@ -551,8 +551,8 @@ github.com/plexusone/omni-telnyx v0.4.0 h1:Qa/8GB0MAk7ryA742Rb+fgsbc/SsG/GZs6Arg
 github.com/plexusone/omni-telnyx v0.4.0/go.mod h1:DvXKIErUst6r0CYmHQKMh+si8YKdlh0n7x1467x3dLo=
 github.com/plexusone/omni-twilio v0.9.0 h1:Bumm1HVnN7EYpPgRTKz9h16SUjAZam59XIHD+yayTs8=
 github.com/plexusone/omni-twilio v0.9.0/go.mod h1:CI1n6fwjgaBl3i1Dcx4x9lTgIxdEBVwwb18kC4weo3k=
-github.com/plexusone/omniagent v0.14.0 h1:28slC8jZzZomVgihFQgpmkLVX1YZvrsI37b+Gz6qQwE=
-github.com/plexusone/omniagent v0.14.0/go.mod h1:NNKmfVlkwLRjKIxwwuEXpFF767KQhMW7f0Y80UzNgtQ=
+github.com/plexusone/omniagent v0.15.0 h1:NfjfSz2b+uPsIvilBb9QamHJcUZUsFiA4cohsAphVrQ=
+github.com/plexusone/omniagent v0.15.0/go.mod h1:ryDKeNmZe4x/DDR0f6zHQZAxcb+PxNajkYvJ6ExQA78=
 github.com/plexusone/omnichat v0.8.0 h1:PZofl+lWVMtOUurzULxwcHrl6fjvEMwvsvd5a+tCQMM=
 github.com/plexusone/omnichat v0.8.0/go.mod h1:bHZN8Yqbb7wTbnHNe/0zVmvlxLEw1tGUsjlbRWzAHyo=
 github.com/plexusone/omniimage v0.1.0 h1:d0+GBVbE6EtuL/uhIVsPe49hAH8tkmL1vHNYt+KIGv8=

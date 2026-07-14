@@ -4,7 +4,7 @@ go 1.26.4
 
 require (
 	github.com/plexusone/omni-github v0.4.0
-	github.com/plexusone/omniagent v0.14.0
+	github.com/plexusone/omniagent v0.15.0
 	github.com/plexusone/omnirole-facilitator v0.1.0
 	github.com/plexusone/omniserp v0.9.0
 	github.com/plexusone/omniskill v0.10.0
@@ -105,7 +105,7 @@ require (
 	github.com/ogen-go/ogen v1.23.0 // indirect
 	github.com/openai/openai-go v1.12.0 // indirect
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
-	github.com/petermattis/goid v0.0.0-20260701081913-4f67fd55d3b4 // indirect
+	github.com/petermattis/goid v0.0.0-20260713073324-57ed88f34a0a // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/plexusone/agentauth v0.2.0 // indirect
 	github.com/plexusone/elevenlabs-go v0.13.0 // indirect
