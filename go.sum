@@ -537,8 +537,8 @@ github.com/plexusone/omni-bitwarden v0.1.0 h1:psdoipqXcJEipiUyCDsikPajl7N41oGFTU
 github.com/plexusone/omni-bitwarden v0.1.0/go.mod h1:duTYEBBbU80tbX0vSMY3sDhlinRfS197xn9nQlgt9SA=
 github.com/plexusone/omni-deepgram v0.7.0 h1:5CAdKlT5nBMVCSYt259B24sR2zcsM2Q8qtUWJ4mVZUc=
 github.com/plexusone/omni-deepgram v0.7.0/go.mod h1:T/1ADMGTnA+Fert63+KgE3wxaQvoUOyqz1TeVqgYqbQ=
-github.com/plexusone/omni-github v0.4.0 h1:m8EN/mRGQ71ESfG5EvUKVgJ3WkSbOmMUcvQ+16JHipI=
-github.com/plexusone/omni-github v0.4.0/go.mod h1:vahh2A/exxGFGxc+UB7N2gxPDfwExTjiD5MzSx82uxc=
+github.com/plexusone/omni-github v0.5.0 h1:sVfg8eBZSJTLRfRYJHYeVEPvgwJaep/wrCTRh7aDaY0=
+github.com/plexusone/omni-github v0.5.0/go.mod h1:Yfi/ss41Ey5zsYLJQS0WJjlsi+eJhpj+vIqa4bNhu4g=
 github.com/plexusone/omni-google v0.7.0 h1:RIYB80bHdW5z26+ncvNzHzhVADT4UyPKqeCYa7pAiJk=
 github.com/plexusone/omni-google v0.7.0/go.mod h1:gsA32NcWqjQ4caUI71+TjkXwo1HZPkGti3T0g40ILk0=
 github.com/plexusone/omni-onepassword v0.4.0 h1:KKo3iod6BDITDUG/OTou30erE8nHpGccnHk78E8KLR0=

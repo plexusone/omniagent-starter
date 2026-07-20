@@ -3,7 +3,7 @@ module github.com/plexusone/omniagent-starter
 go 1.26.4
 
 require (
-	github.com/plexusone/omni-github v0.4.0
+	github.com/plexusone/omni-github v0.5.0
 	github.com/plexusone/omniagent v0.15.0
 	github.com/plexusone/omnirole-facilitator v0.1.0
 	github.com/plexusone/omniserp v0.9.0
