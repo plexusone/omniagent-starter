@@ -5,9 +5,9 @@ go 1.26.4
 require (
 	github.com/plexusone/omni-github v0.5.0
 	github.com/plexusone/omniagent v0.15.0
-	github.com/plexusone/omnirole-facilitator v0.1.0
+	github.com/plexusone/omnirole-facilitator v0.1.1
 	github.com/plexusone/omniserp v0.9.0
-	github.com/plexusone/omniskill v0.10.0
+	github.com/plexusone/omniskill v0.11.0
 	github.com/plexusone/omniskill-pack v0.2.0
 	github.com/plexusone/omnistorage-core v0.5.0
 )
@@ -96,9 +96,9 @@ require (
 	github.com/jessevdk/go-flags v1.6.1 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
-	github.com/mattn/go-isatty v0.0.22 // indirect
+	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/mdp/qrterminal/v3 v3.2.1 // indirect
-	github.com/modelcontextprotocol/go-sdk v1.6.1 // indirect
+	github.com/modelcontextprotocol/go-sdk v1.7.0 // indirect
 	github.com/ncruces/go-strftime v1.0.0 // indirect
 	github.com/oasdiff/yaml v0.1.1 // indirect
 	github.com/oasdiff/yaml3 v0.0.14 // indirect
@@ -167,13 +167,14 @@ require (
 	golang.ngrok.com/muxado/v2 v2.0.1 // indirect
 	golang.ngrok.com/ngrok v1.13.0 // indirect
 	golang.org/x/crypto v0.54.0 // indirect
-	golang.org/x/exp v0.0.0-20260709172345-9ea1abe57597 // indirect
+	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743 // indirect
 	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.45.0 // indirect
 	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/time v0.15.0 // indirect
 	google.golang.org/api v0.288.0 // indirect
 	google.golang.org/genai v1.63.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260706201446-f0a921348800 // indirect
