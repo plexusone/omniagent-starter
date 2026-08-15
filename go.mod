@@ -3,7 +3,7 @@ module github.com/plexusone/omniagent-starter
 go 1.26.4
 
 require (
-	github.com/plexusone/omni-github v0.5.0
+	github.com/plexusone/omni-github v0.6.0
 	github.com/plexusone/omniagent v0.17.0
 	github.com/plexusone/omnirole-facilitator v0.1.1
 	github.com/plexusone/omniserp v0.9.0
@@ -81,7 +81,7 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/google/go-github/v88 v88.0.0 // indirect
+	github.com/google/go-github/v89 v89.0.0 // indirect
 	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/jsonschema-go v0.4.3 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
@@ -94,6 +94,7 @@ require (
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/grokify/echartify v0.2.3 // indirect
 	github.com/grokify/goauth v0.23.30 // indirect
+	github.com/grokify/gogithub v0.17.0 // indirect
 	github.com/grokify/mogo v0.74.7 // indirect
 	github.com/grokify/oscompat v0.5.0 // indirect
 	github.com/grokify/sogo v0.15.0 // indirect

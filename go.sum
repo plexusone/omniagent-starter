@@ -334,8 +334,8 @@ github.com/google/go-cmp v0.5.8/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeN
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
-github.com/google/go-github/v88 v88.0.0 h1:dZA9IKkPK1eXZj4ypngnpRj5FwdpTv4whix2PrQMP7M=
-github.com/google/go-github/v88 v88.0.0/go.mod h1:rufTDgn2N45wjhukLTyxmvc9nilSp3mr3Rgtt6b1MPw=
+github.com/google/go-github/v89 v89.0.0 h1:35bEK5XoEcF3PZrlVbl9XN63f5BcJRA/UGkxeC9xPg0=
+github.com/google/go-github/v89 v89.0.0/go.mod h1:QLcbU0ipeAqQuR5KSg8c2lql4Qk1EwJ2dWz/0rP4Nho=
 github.com/google/go-querystring v1.2.0 h1:yhqkPbu2/OH+V9BfpCVPZkNmUXhb2gBxJArfhIxNtP0=
 github.com/google/go-querystring v1.2.0/go.mod h1:8IFJqpSRITyJ8QhQ13bmbeMBDfmeEJZD5A0egEOmkqU=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
@@ -395,6 +395,8 @@ github.com/grokify/echartify v0.2.3 h1:nblhA66Xp1oUkcqc3jJh/0UhfO06bC7tAa+C/Z8QC
 github.com/grokify/echartify v0.2.3/go.mod h1:bK8sWEmikVe5crKyK2CAv0sAeyrnTLjjVPgmyEsUV9E=
 github.com/grokify/goauth v0.23.30 h1:hQU5wLwnQcTz5Q2AAsqD9+ubdKJ8hvk2oXMuRErUU0E=
 github.com/grokify/goauth v0.23.30/go.mod h1:CCPrQOi1aE9FElsZiORlIFIW99/CUEh46iwRnm7+hpE=
+github.com/grokify/gogithub v0.17.0 h1:FJy2QcLaJuypY15xE7vcwfIaISVPBaAScIJKfbcr440=
+github.com/grokify/gogithub v0.17.0/go.mod h1:r3c5J6UKCTv1vigQkulpeZGXfH3+EQ5540GZxGPVgbU=
 github.com/grokify/mogo v0.74.7 h1:wfN4Ahk65FJ9gWKtwhOgJtW48sh/4vT0nfoFo6QP+TA=
 github.com/grokify/mogo v0.74.7/go.mod h1:fK2N1Fqj4CVOxIUVr4W7Oo6FGfCFJErNl57J2TYjQq0=
 github.com/grokify/oscompat v0.5.0 h1:qGUym1Jt+yecBmBM7FnimvuUWLs8VVRCxotpHTzaWH0=
@@ -582,8 +584,8 @@ github.com/plexusone/omni-bitwarden v0.1.0 h1:psdoipqXcJEipiUyCDsikPajl7N41oGFTU
 github.com/plexusone/omni-bitwarden v0.1.0/go.mod h1:duTYEBBbU80tbX0vSMY3sDhlinRfS197xn9nQlgt9SA=
 github.com/plexusone/omni-deepgram v0.7.0 h1:5CAdKlT5nBMVCSYt259B24sR2zcsM2Q8qtUWJ4mVZUc=
 github.com/plexusone/omni-deepgram v0.7.0/go.mod h1:T/1ADMGTnA+Fert63+KgE3wxaQvoUOyqz1TeVqgYqbQ=
-github.com/plexusone/omni-github v0.5.0 h1:sVfg8eBZSJTLRfRYJHYeVEPvgwJaep/wrCTRh7aDaY0=
-github.com/plexusone/omni-github v0.5.0/go.mod h1:Yfi/ss41Ey5zsYLJQS0WJjlsi+eJhpj+vIqa4bNhu4g=
+github.com/plexusone/omni-github v0.6.0 h1:U11tsRmgwortk8Pj13DgMmhdwtR2ZyKM8leyHad1lx4=
+github.com/plexusone/omni-github v0.6.0/go.mod h1:WvMvWUbKV6gT0sFokeRnB9DpyigAr9cfRliAQO9rvvM=
 github.com/plexusone/omni-google v0.7.0 h1:RIYB80bHdW5z26+ncvNzHzhVADT4UyPKqeCYa7pAiJk=
 github.com/plexusone/omni-google v0.7.0/go.mod h1:gsA32NcWqjQ4caUI71+TjkXwo1HZPkGti3T0g40ILk0=
 github.com/plexusone/omni-onepassword v0.4.0 h1:KKo3iod6BDITDUG/OTou30erE8nHpGccnHk78E8KLR0=
