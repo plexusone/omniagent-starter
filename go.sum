@@ -571,8 +571,8 @@ github.com/plexusone/omnirole-facilitator v0.1.1 h1:3jt57R3cf0d6AA5+ulSrEgqLxpoa
 github.com/plexusone/omnirole-facilitator v0.1.1/go.mod h1:VLHM3B7Gnc3GRP0smmmD3sxzPL3NhggyxNZnZ5Q1N4E=
 github.com/plexusone/omniserp v0.9.0 h1:5E29+gnclbuDA3Oj16Gnh4lRCTkmlcupdpfFUOF2W6s=
 github.com/plexusone/omniserp v0.9.0/go.mod h1:xQ6ULoxBIEzbpjNCMuIoSyVVWNJoW1dyS016dx2jFjA=
-github.com/plexusone/omniskill v0.11.0 h1:vQ1CyWwgyBwr97DM8p/uDdox9ietPbnEE1z+EiSJzac=
-github.com/plexusone/omniskill v0.11.0/go.mod h1:cTKqpqEDbTCAqKBsYHdBd7+LySO2dPHJE1S1VlnOovI=
+github.com/plexusone/omniskill v0.12.0 h1:MFGlpB2/Tp7SWcrn2kNHQ+h8j9lfdChvCi4ntymOG3I=
+github.com/plexusone/omniskill v0.12.0/go.mod h1:cTKqpqEDbTCAqKBsYHdBd7+LySO2dPHJE1S1VlnOovI=
 github.com/plexusone/omniskill-pack v0.2.0 h1:ZzczPmYYj5DtD8C8OmI/0qrxFBSVHi9kt1+9+GPC6Tg=
 github.com/plexusone/omniskill-pack v0.2.0/go.mod h1:GoOr0wUitxUjgDrjPoxJ7J2d6RD+vEGv1rEK2P0m1cU=
 github.com/plexusone/omnistorage-core v0.5.1 h1:tvsfTcJln6ZixKL75aE7tMf3yyP94hFDef7ASGlQBe8=

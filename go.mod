@@ -7,7 +7,7 @@ require (
 	github.com/plexusone/omniagent v0.15.0
 	github.com/plexusone/omnirole-facilitator v0.1.1
 	github.com/plexusone/omniserp v0.9.0
-	github.com/plexusone/omniskill v0.11.0
+	github.com/plexusone/omniskill v0.12.0
 	github.com/plexusone/omniskill-pack v0.2.0
 	github.com/plexusone/omnistorage-core v0.5.1
 )
