@@ -9,7 +9,7 @@ require (
 	github.com/plexusone/omniserp v0.9.0
 	github.com/plexusone/omniskill v0.11.0
 	github.com/plexusone/omniskill-pack v0.2.0
-	github.com/plexusone/omnistorage-core v0.5.0
+	github.com/plexusone/omnistorage-core v0.5.1
 )
 
 require (
@@ -184,10 +184,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
-	modernc.org/libc v1.74.1 // indirect
+	modernc.org/libc v1.74.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.53.0 // indirect
+	modernc.org/sqlite v1.55.0 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )
 
