@@ -4,10 +4,10 @@ go 1.26.8
 
 require (
 	github.com/plexusone/omni-github v0.6.1
-	github.com/plexusone/omniagent v0.20.0
+	github.com/plexusone/omniagent v0.22.0
 	github.com/plexusone/omnirole-facilitator v0.1.1
 	github.com/plexusone/omniserp v0.9.0
-	github.com/plexusone/omniskill v0.12.0
+	github.com/plexusone/omniskill v0.12.1
 	github.com/plexusone/omniskill-pack v0.2.0
 	github.com/plexusone/omnistorage-core v0.6.0
 )
@@ -104,7 +104,7 @@ require (
 	github.com/huandu/xstrings v1.6.3 // indirect
 	github.com/ianlancetaylor/demangle v0.0.0-20261012173340-cbb8aaea4290 // indirect
 	github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible // indirect
-	github.com/inconshreveable/log15/v3 v3.1.0 // indirect
+	github.com/inconshreveable/log15/v3 v3.2.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
@@ -130,7 +130,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 	github.com/plexusone/agentauth v0.2.0 // indirect
-	github.com/plexusone/elevenlabs-go v0.13.0 // indirect
+	github.com/plexusone/elevenlabs-go v0.14.0 // indirect
 	github.com/plexusone/ogen-tools v0.3.0 // indirect
 	github.com/plexusone/omni-anthropic v0.3.0 // indirect
 	github.com/plexusone/omni-aws v0.11.0 // indirect
@@ -138,21 +138,22 @@ require (
 	github.com/plexusone/omni-deepgram v0.7.0 // indirect
 	github.com/plexusone/omni-google v0.7.0 // indirect
 	github.com/plexusone/omni-onepassword v0.4.0 // indirect
-	github.com/plexusone/omni-openai v0.7.1 // indirect
+	github.com/plexusone/omni-openai v0.8.0 // indirect
 	github.com/plexusone/omni-openrouter v0.2.1 // indirect
-	github.com/plexusone/omni-telnyx v0.4.0 // indirect
-	github.com/plexusone/omni-twilio v0.9.0 // indirect
+	github.com/plexusone/omni-telnyx v0.7.0 // indirect
+	github.com/plexusone/omni-twilio v0.12.0 // indirect
 	github.com/plexusone/omnichat v0.8.1 // indirect
 	github.com/plexusone/omniimage v0.1.0 // indirect
 	github.com/plexusone/omnillm v0.17.1 // indirect
 	github.com/plexusone/omnillm-core v0.18.1 // indirect
+	github.com/plexusone/omnimeet-core v0.2.0 // indirect
 	github.com/plexusone/omnimemory v0.2.1 // indirect
 	github.com/plexusone/omniobserve v0.12.1 // indirect
 	github.com/plexusone/omnitoken v0.1.0 // indirect
 	github.com/plexusone/omnivault v0.6.0 // indirect
 	github.com/plexusone/omnivault-desktop v0.1.0 // indirect
-	github.com/plexusone/omnivoice v0.13.0 // indirect
-	github.com/plexusone/omnivoice-core v0.16.1 // indirect
+	github.com/plexusone/omnivoice v0.14.0 // indirect
+	github.com/plexusone/omnivoice-core v0.18.1 // indirect
 	github.com/prometheus/client_golang v1.25.0 // indirect
 	github.com/prometheus/client_model v0.6.3 // indirect
 	github.com/prometheus/common v0.72.1 // indirect
@@ -170,7 +171,7 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/spyzhov/ajson v0.9.6 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
-	github.com/team-telnyx/telnyx-go/v4 v4.104.0 // indirect
+	github.com/team-telnyx/telnyx-go/v4 v4.106.0 // indirect
 	github.com/tetratelabs/wabin v0.0.0-20230304001439-f6f874872834 // indirect
 	github.com/tetratelabs/wazero v1.12.0 // indirect
 	github.com/tidwall/gjson v1.20.0 // indirect
@@ -216,7 +217,7 @@ require (
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20261014143641-f0251eb4aa3e // indirect
 	golang.org/x/mod v0.42.0 // indirect
-	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/oauth2 v0.37.0 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
@@ -228,7 +229,7 @@ require (
 	google.golang.org/genai v1.76.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20261026165753-2ffab32bce7e // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20261026165753-2ffab32bce7e // indirect
-	google.golang.org/grpc v1.84.0 // indirect
+	google.golang.org/grpc v1.85.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/telebot.v3 v3.3.8 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
