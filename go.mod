@@ -7,7 +7,7 @@ require (
 	github.com/plexusone/omniagent v0.20.0
 	github.com/plexusone/omnirole-facilitator v0.1.1
 	github.com/plexusone/omniserp v0.9.0
-	github.com/plexusone/omniskill v0.12.0
+	github.com/plexusone/omniskill v0.12.1
 	github.com/plexusone/omniskill-pack v0.2.0
 	github.com/plexusone/omnistorage-core v0.6.0
 )
@@ -104,7 +104,7 @@ require (
 	github.com/huandu/xstrings v1.6.3 // indirect
 	github.com/ianlancetaylor/demangle v0.0.0-20261012173340-cbb8aaea4290 // indirect
 	github.com/inconshreveable/log15 v3.0.0-testing.5+incompatible // indirect
-	github.com/inconshreveable/log15/v3 v3.1.0 // indirect
+	github.com/inconshreveable/log15/v3 v3.2.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
